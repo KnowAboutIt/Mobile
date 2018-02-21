@@ -1,0 +1,50 @@
+html, body {font-family: Arial, Helvetica, sans-serif;}
+
+.fixedblackbox
+{
+right: 0;
+left: 0;
+top: 0;
+position: fixed;
+width: 100%;
+border: 1px solid black;
+background: black;
+color: white;
+padding: 10px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, .5);
+font-size: 35px;
+}
+
+.stickywhitebox
+{
+top: 140px;
+position: sticky;
+border: 1px solid white;
+background: white;
+color: black;
+padding-left: 10px;
+box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.dottedredbox
+{
+margin-top: 120px;
+margin-bottom: 10px;
+border: 2px dotted red;
+background: white;
+color: red;
+padding-left: 10px;
+}
+
+.fixedredbox
+{
+bottom: 10px;
+left: 8px;
+right: 8px;
+position: fixed;
+border: 2px solid red;
+background: white;
+color: red;
+padding-left: 10px;
+padding-right: 10px;
+}
