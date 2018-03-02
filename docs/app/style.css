@@ -7,4 +7,6 @@ header{
     left: 0;
     right: 0;
     bottom: 1600px;
+    magin-left: auto;
+    margin-right: auto;
 }
