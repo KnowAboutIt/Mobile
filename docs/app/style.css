@@ -6,7 +6,6 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    bottom: 1600px;
-    magin-left: auto;
-    margin-right: auto;
+    padding: 10px;
+    box-shadow: 0px 10px 5px rgba( 0, 0, 0, .5)
 }
